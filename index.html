@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Choudhry - Interactive Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="profile-section">
+            <div class="profile-image">
+                <!-- Profile image placeholder -->
+                <div class="avatar"></div>
+            </div>
+            <h1>ADITYA CHOUDHRY</h1>
+            <div class="contact-info">
+                <p>Chandigarh, India</p>
+                <p>Email: aditya.gardian@gmail.com</p>
+                <p>Phone: +91-9729990899</p>
+            </div>
+        </div>
+    </header>
+    
+    <main class="card-container">
+        <div class="card" data-section="summary">
+            <div class="card-inner">
+                <h2>Summary</h2>
+                <div class="icon">📋</div>
+            </div>
+        </div>
+        
+        <div class="card" data-section="experience">
+            <div class="card-inner">
+                <h2>Experience</h2>
+                <div class="icon">💼</div>
+            </div>
+        </div>
+        
+        <div class="card" data-section="education">
+            <div class="card-inner">
+                <h2>Education</h2>
+                <div class="icon">🎓</div>
+            </div>
+        </div>
+        
+        <div class="card" data-section="skills">
+            <div class="card-inner">
+                <h2>Technical Skills</h2>
+                <div class="icon">⚡</div>
+            </div>
+        </div>
+    </main>
+
+    <div class="popup-overlay">
+        <div class="popup-content">
+            <div class="popup-header">
+                <h2></h2>
+                <button class="close-btn">&times;</button>
+            </div>
+            <div class="popup-body"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
